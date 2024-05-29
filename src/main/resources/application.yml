@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/sbvue?createDatabaseIfNotExist=true&autoReconnect=true&showSSL=false
+    url: jdbc:sqlserver://cicd-m1-jcail.database.windows.net:1433;database=cicd-m1-jcail;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;Authentication=ActiveDirectoryIntegrated
     username: root
     password: root
   jpa:
