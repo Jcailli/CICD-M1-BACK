@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:sqlserver://cicd-m1-jcail.database.windows.net:1433;database=cicd-m1-jcail;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;Authentication=ActiveDirectoryIntegrated
-    username: root
-    password: root
+    url: jdbc:mysql://hassanbrgserver.mysql.database.azure.com:3306/defaultdb?createDatabaseIfNotExist=true&autoReconnect=true&showSSL=false
+    username: hassanbrgserver
+    password: ynov2024/
   jpa:
     properties:
       hibernate:
